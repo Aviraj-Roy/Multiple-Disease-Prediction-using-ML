@@ -3,9 +3,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
-diabetes_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Models/diabetes_model.sav", 'rb'))
-heart_disease_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Models/heart_disease_model.sav", 'rb'))
-parkinsons_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Models/parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Saved Models/diabetes_model.sav", 'rb'))
+heart_disease_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Saved Models/heart_disease_model.sav", 'rb'))
+parkinsons_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Saved Models/parkinsons_model.sav", 'rb'))
 #breast_cancer_model = pickle.load(open("C:/Users/royav/Downloads/Disease Prediction using ML/Models/breast_cancer_model.sav", 'rb'))
 
 # sidebar for navigation
