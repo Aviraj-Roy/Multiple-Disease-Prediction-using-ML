@@ -1,1 +1,0 @@
-streamlit run "C:\Users\royav\Downloads\Disease Prediction using ML\Predictor.py"
